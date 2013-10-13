@@ -2,7 +2,7 @@
 #
 # File        : snake.rb
 # Maintainer  : Felix C. Stegerman <flx@obfusk.net>
-# Date        : 2013-10-13
+# Date        : 2013-10-14
 #
 # Copyright   : Copyright (C) 2013  Felix C. Stegerman
 # Licence     : GPLv2
@@ -18,7 +18,7 @@ class Snake < Sinatra::Base
   SCRIPTS = %w{
     /js/jquery.min.js
     /js/underscore.min.js
-    /__coffee__/big-bang.js
+    /__coffee__/bigbang.js
     /__coffee__/snake.js
   }
 
