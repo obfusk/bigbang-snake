@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title Snake
+    - SCRIPTS.each do |src|
+      %script{ type: 'text/javascript', src: src }
+    :css
+      body, html { height: 100%; width: 100%; }
+      #container { padding: 20px; }
+      #canvas {
+        display: block;
+        margin: 0px auto;
+        border: 1px solid black;
+      }
+  %body
+    #container
+      %canvas#canvas{ height: 600, width: 800 }
