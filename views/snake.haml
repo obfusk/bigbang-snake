@@ -5,13 +5,16 @@
     - SCRIPTS.each do |src|
       %script{ type: 'text/javascript', src: src }
     :css
-      body, html { width: 100%; height: 100%; }
-      #container { padding: 20px; }
-      #canvas {
-        display: block;
-        margin: 0px auto;
-        border: 1px solid black;
-      }
+      body, html  { width: 100%; height: 100%; }
+      #container  { padding: 20px; }
+      #images     { display: none; }
+      #CANVAS     { display: block; margin: 0px auto;
+                    border: 1px solid black; }
   %body
+    #images
+      - %w{ goo body }.each do |x|
+        %img{ id: "#{x}_img".upcase, src: "/img/#{x}.gif" }
+      - %w{ left up right down }.each do |x|
+        %img{ id: "head_#{x}_img".upcase, src: "/img/head_#{x}.gif" }
     #container
-      %canvas#canvas{ width: 800, height: 600 }
+      %canvas#CANVAS{ width: 800, height: 600 }
