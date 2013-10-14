@@ -20,6 +20,7 @@ class Snake < Sinatra::Base
     /js/underscore.min.js
     /__coffee__/bigbang.js
     /__coffee__/snake.js
+    /__coffee__/start.js
   }
 
   get '/' do
