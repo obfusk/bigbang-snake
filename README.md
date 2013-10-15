@@ -12,24 +12,21 @@
 ## Description
 []: {{{1
 
-  bigbang-snake - snake game w/ snake.coffee
+  bigbang-snake - snake game w/ bigbang.coffee
 
   A translation of the "snake" game from Realm of Racket [1] to
-  coffeescript using the snake.coffee [2] library.
+  coffeescript using the bigbang.coffee [2] library.
 
-[]: }}}1
-
-## TODO
-[]: {{{1
-
-  * build!
+  To run the game, you will need snake.coffee [3] and bigbang.coffee;
+  either place them where the symlinks point to or replace the
+  symlinks.
 
 []: }}}1
 
 ## License
 []: {{{1
 
-  GPLv3 [3].
+  GPLv3 [4].
 
 []: }}}1
 
@@ -39,10 +36,13 @@
   [1] Realm of Racket Snake Game
   --- https://github.com/plt/racket/blob/master/pkgs/realm/chapter6
 
-  [2] snake.coffee
+  [2] bigbang.coffee
+  --- https://github.com/obfusk/bigbang.coffee
+
+  [3] snake.coffee
   --- https://github.com/obfusk/snake.coffee
 
-  [3] GNU General Public License, version 3
+  [4] GNU General Public License, version 3
   --- http://www.opensource.org/licenses/GPL-3.0
 
 []: }}}1
