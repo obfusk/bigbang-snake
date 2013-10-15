@@ -1,5 +1,5 @@
 $ ->
-  opts = {}
+  opts = HEIGHT: 25
   for x in 'CANVAS GOO_IMG BODY_IMG'.split(/\ +/)
     opts[x] = $("##{x}")[0]
   for x in 'left up right down'.split(/\ +/)
