@@ -5,4 +5,5 @@ $ ->
   for x in 'left up right down'.split(/\ +/)
     y = "head_#{x}_img".toUpperCase()
     opts[y] = $("##{y}")[0]
+  $('#CANVAS').attr('tabindex', 0).focus()
   snake.start opts
