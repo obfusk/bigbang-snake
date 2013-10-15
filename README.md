@@ -2,7 +2,7 @@
 
     File        : README.md
     Maintainer  : Felix C. Stegerman <flx@obfusk.net>
-    Date        : 2013-10-14
+    Date        : 2013-10-15
 
     Copyright   : Copyright (C) 2013  Felix C. Stegerman
     Version     : v0.0.1-SNAPSHOT
@@ -18,8 +18,8 @@
   coffeescript using the bigbang.coffee [2] library.
 
   To run the game, you will need snake.coffee [3] and bigbang.coffee;
-  either place them where the symlinks point to or replace the
-  symlinks.
+  when using git, use `git submodule init` and `git submodule update`
+  to fetch and use these dependencies.
 
 []: }}}1
 
