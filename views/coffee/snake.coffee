@@ -1,1 +1,1 @@
-../../../snake.coffee/src/snake.coffee
+../../deps/snake.coffee/src/snake.coffee

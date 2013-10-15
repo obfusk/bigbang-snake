@@ -1,0 +1,6 @@
+[submodule "deps/bigbang.coffee"]
+	path = deps/bigbang.coffee
+	url = https://github.com/obfusk/bigbang.coffee.git
+[submodule "deps/snake.coffee"]
+	path = deps/snake.coffee
+	url = https://github.com/obfusk/snake.coffee.git

@@ -1,1 +1,1 @@
-../../../bigbang.coffee/src/bigbang.coffee
+../../deps/bigbang.coffee/src/bigbang.coffee
