@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Snake</title>
+    <style>
+      body, html  { width: 100%; height: 100%; margin: 0px; }
+      #link       { text-align: center; padding: 10px; }
+      #images     { display: none; }
+      #CANVAS     { display: block; margin: 0px auto;
+                    border: 1px solid black; }
+    </style>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/underscore.min.js"></script>
+    <script src="/coffee/bigbang.js"></script>
+    <script src="/coffee/snake.js"></script>
+    <script src="/coffee/start.js"></script>
+  </head>
+  <body>
+    <div id="images">
+      <img id="GOO_IMG"        src="/img/goo.gif"        alt="IMG" />
+      <img id="BODY_IMG"       src="/img/body.gif"       alt="IMG" />
+      <img id="HEAD_LEFT_IMG"  src="/img/head_left.gif"  alt="IMG" />
+      <img id="HEAD_UP_IMG"    src="/img/head_up.gif"    alt="IMG" />
+      <img id="HEAD_RIGHT_IMG" src="/img/head_right.gif" alt="IMG" />
+      <img id="HEAD_DOWN_IMG"  src="/img/head_down.gif"  alt="IMG" />
+    </div>
+    <div id="link">
+      &rarr;
+      <a href="https://github.com/obfusk/bigbang-snake">
+        https://github.com/obfusk/bigbang-snake
+      </a>
+    </div>
+    <div id="container">
+      <canvas id="CANVAS" />
+    </div>
+  </body>
+</html>

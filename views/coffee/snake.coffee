@@ -1,1 +1,0 @@
-../../deps/snake.coffee/src/snake.coffee

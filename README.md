@@ -1,4 +1,3 @@
-[]: {{{1
 
     File        : README.md
     Maintainer  : Felix C. Stegerman <flx@obfusk.net>
@@ -7,10 +6,7 @@
     Copyright   : Copyright (C) 2014  Felix C. Stegerman
     Version     : v0.1.0
 
-[]: }}}1
-
 ## Description
-[]: {{{1
 
   bigbang-snake - snake game w/ bigbang.coffee
 
@@ -21,17 +17,11 @@
   when using git, use `git submodule update --init` to fetch and use
   these dependencies.
 
-[]: }}}1
-
 ## License
-[]: {{{1
 
   GPLv3+ [4].
 
-[]: }}}1
-
 ## References
-[]: {{{1
 
   [1] Realm of Racket Snake Game
   --- https://github.com/plt/racket/blob/master/pkgs/realm/chapter6
@@ -45,6 +35,4 @@
   [4] GNU General Public License, version 3
   --- http://www.gnu.org/licenses/gpl-3.0.html
 
-[]: }}}1
-
-[]: ! ( vim: set tw=70 sw=2 sts=2 et fdm=marker : )
+<!-- vim: set tw=70 sw=2 sts=2 et fdm=marker : -->
