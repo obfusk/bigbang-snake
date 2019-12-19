@@ -26,3 +26,6 @@ DEPENDENCIES
   coffee-script
   haml
   sinatra
+
+BUNDLED WITH
+   1.17.3
